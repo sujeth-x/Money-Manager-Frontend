@@ -96,4 +96,6 @@ The goal was to build a functional and user-friendly application within a limite
 
 ### Dashboard
 ![Dashboard](Screenshots/image.png.png)
+## 🎥 Demo Video
+👉 [Click here to watch the demo video](https://drive.google.com/file/d/1gflVxdT4R_sQa4DWeLwJccUYt__sD1Tm/view?t=8)
 
