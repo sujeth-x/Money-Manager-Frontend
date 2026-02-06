@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+💻 Money Manager – Frontend Application
+📌 Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Money Manager Frontend is a user-friendly web interface developed using React and CSS.
+It allows users to interact with the Money Manager system by viewing, adding, and analyzing financial transactions through an intuitive and responsive UI 🎨📊.
 
-## Available Scripts
+This frontend communicates with a Spring Boot backend via REST APIs to provide real-time financial insights.
 
-In the project directory, you can run:
+🎯 Problem Statement
 
-### `npm start`
+Tracking income and expenses using spreadsheets or notes is inconvenient and lacks clarity. Users need a simple, visual, and accessible interface to manage their financial data effectively.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Money Manager Frontend addresses this problem by offering a clean dashboard-style interface that makes financial tracking easy and understandable 💡.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✨ Key Features
 
-### `npm test`
+🧾 View all income and expense transactions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+➕ Add new financial records through the UI
 
-### `npm run build`
+📊 Display financial summaries (income, expense, balance)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📅 Filter transactions by date
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🎨 Clean and responsive design
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔗 Seamless integration with backend REST APIs
 
-### `npm run eject`
+🛠️ Technology Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+⚛️ Library: React
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🎨 Styling: CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🌐 API Communication: REST (HTTP requests)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🧩 Component-Based Architecture
 
-## Learn More
+🧱 Application Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The frontend follows a component-based structure:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🧩 Components: Reusable UI elements
 
-### Code Splitting
+📄 Pages: Main views such as dashboard and transaction list
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🎨 Styles: Centralized CSS for consistent UI
 
-### Analyzing the Bundle Size
+🔗 Services: Handles API communication with backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This structure improves maintainability and scalability 🚀.
 
-### Making a Progressive Web App
+🎨 User Interface Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The UI focuses on:
 
-### Advanced Configuration
+✨ Simplicity and clarity
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📱 Responsive layout for different screen sizes
 
-### Deployment
+🎯 Easy navigation and readability
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Color grading and spacing are used to enhance user experience while keeping the interface professional.
 
-### `npm run build` fails to minify
+🔄 Backend Integration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The frontend consumes REST APIs exposed by the Money Manager Backend to:
+
+Fetch transaction data
+
+Submit new income and expense entries
+
+Display calculated summaries
+
+All interactions are handled asynchronously to ensure smooth user experience ⚡.
+
+🧪 Testing & Validation
+
+The frontend was tested by:
+
+Verifying UI rendering across components
+
+Ensuring correct API data display
+
+Validating user input handling
+
+Integration with the backend was tested using real-time data.
+
+🏆 Hackathon Context
+
+This frontend application was developed as part of a hackathon project submission 🏁.
+The goal was to create a functional, clean, and user-friendly interface within a limited timeframe ⏳.
+
+👨‍💻 Author
+
+Sujeth S
+🎓 Final Year Computer Science Student
+💻 Frontend Developer (React & CSS)
