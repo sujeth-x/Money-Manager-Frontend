@@ -96,3 +96,8 @@ The goal was to create a functional, clean, and user-friendly interface within a
 Sujeth S
 🎓 Final Year Computer Science Student
 💻 Frontend Developer (React & CSS)
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](Screenshots/image.png.png)
+
